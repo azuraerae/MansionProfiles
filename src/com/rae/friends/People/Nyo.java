@@ -11,7 +11,7 @@ public class Nyo extends Person {
     public Nyo(){
         super(
             "Nyo", 
-            RoleList.entertainer,
+            RoleList.Entertainer,
             new String[]{
                 "the cat 2.0",
                 "slow",
@@ -22,7 +22,6 @@ public class Nyo extends Person {
             new String[]{
                 
             }
-            
         );
     }
 }
