@@ -14,7 +14,7 @@ public class Nyo extends Person {
             new String[]{
                 
             }, 
-            new GregorianCalendar(0, Calendar.DECEMBER, 25).getTime()
+            new GregorianCalendar(2001, Calendar.September, 3).getTime()
         );
     }
 }
