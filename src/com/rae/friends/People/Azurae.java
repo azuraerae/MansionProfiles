@@ -9,12 +9,16 @@ import com.rae.friends.Classes.Specie.SpeciesList;
 public class Azurae extends Person {
     public Azurae(){
         super(
-            "Rae", 
-            SpeciesList.Cat, 
+            "Azurae", 
             new String[]{
-                
+                "Rae"
             },
-            new GregorianCalendar(2005, Calendar.AUGUST, 11).getTime()
+            SpeciesList.Cat, 
+            new GregorianCalendar(2005, Calendar.AUGUST, 11).getTime(),
+            new String[]{
+                "Let it rip your balls",
+                "Real real real real real"
+            }
         );
     }
 }

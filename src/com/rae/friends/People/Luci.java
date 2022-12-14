@@ -10,7 +10,11 @@ public class Luci extends Person {
     public Luci(){
         super(
             "Luci", 
+            new String[]{
+                
+            },
             SpeciesList.Cat, 
+            new GregorianCalendar(2005, Calendar.APRIL, 1).getTime(),
             new String[]{
                 "Breed me",
                 "Fill me with seed",
@@ -20,8 +24,7 @@ public class Luci extends Person {
                 "Let me drain you",
                 "Stuff my throat",
                 "I'll crush your balls"
-            },
-            new GregorianCalendar(2005, Calendar.APRIL, 1).getTime()
+            }
         );
     }
 }

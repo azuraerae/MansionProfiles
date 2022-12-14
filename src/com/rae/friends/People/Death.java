@@ -10,11 +10,14 @@ public class Death extends Person{
     public Death(){
         super(
             "Death", 
+            new String[]{
+                
+            },
             SpeciesList.human, 
+            new GregorianCalendar(2002, Calendar.DECEMBER, 15).getTime(),
             new String[]{
                 "Swallow my sand"
-            },
-            new GregorianCalendar(2002, Calendar.DECEMBER, 15).getTime()
+            }
         );
     }
 }

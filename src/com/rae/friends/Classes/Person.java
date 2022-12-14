@@ -15,9 +15,12 @@ public class Person {
     public Person(
         String name, 
         String[] nicknames,
+
         Specie kind, 
-        String[] voicelines,
-        Date birthday
+
+        Date birthday,
+        
+        String[] voicelines
         ){
             
         this.name = name;

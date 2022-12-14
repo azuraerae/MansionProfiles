@@ -10,11 +10,14 @@ public class Nyo extends Person {
     public Nyo(){
         super(
             "Nyo", 
+            new String[]{
+
+            },
             SpeciesList.Cat,
+            new GregorianCalendar(2001, Calendar.SEPTEMBER, 3).getTime(),
             new String[]{
                 
-            }, 
-            new GregorianCalendar(2001, Calendar.SEPTEMBER, 3).getTime()
+            }
         );
     }
 }
