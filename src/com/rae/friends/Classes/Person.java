@@ -6,12 +6,12 @@ import java.util.Random;
 public class Person {
     String name;
     Date birthday;
-    Spicie kind;
+    Specie kind;
     String[] voicelines;
     
     public Person(
         String name, 
-        Spicie kind, 
+        Specie kind, 
         String[] voicelines,
         Date birthday
         ){
@@ -44,7 +44,7 @@ public class Person {
         this.name = newName;
     }
 
-    public void setKind(Spicie kind){
+    public void setKind(Specie kind){
         this.kind = kind;
     }
 

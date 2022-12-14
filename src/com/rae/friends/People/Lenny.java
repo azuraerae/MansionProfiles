@@ -4,7 +4,7 @@ import java.util.Calendar;
 import java.util.GregorianCalendar;
 
 import com.rae.friends.Classes.Person;
-import com.rae.friends.Classes.Species.SpeciesList;
+import com.rae.friends.Classes.Specie.SpeciesList;
 
 public class Lenny extends Person {
     public Lenny(){
