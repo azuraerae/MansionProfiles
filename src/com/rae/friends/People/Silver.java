@@ -12,7 +12,7 @@ public class Silver extends Person {
             "Silver", 
             SpiciesList.Kitsune,
             new String[]{
-                "i"ll make you trans"
+                "i'll make you trans"
                 "Are you really fucking me while talking casually?"
             }, 
             new GregorianCalendar(2004, Calendar.FEBRUARY, 15).getTime()
