@@ -14,7 +14,7 @@ public class Princess extends Person{
                 "Princess dizzy",
                 "Zomboli"
             },
-            SpeciesList.Human,
+            SpeciesList.Loli,
             new GregorianCalendar(1904 ,Calendar.NOVEMBER, 28).getTime(),
             new String[]{
                 
