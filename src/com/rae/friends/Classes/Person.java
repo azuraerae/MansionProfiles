@@ -5,7 +5,7 @@ import java.util.Random;
 
 public class Person {
     String name;
-    String role;
+    Role role;
 
     Date birthday;
     Specie kind;
@@ -15,14 +15,14 @@ public class Person {
     
     public Person(
         String name, 
+        Role role,
         String[] nicknames,
 
         Specie kind, 
 
         Date birthday,
         
-        String[] voicelines,
-        String role
+        String[] voicelines
         ){
             
         this.name = name;

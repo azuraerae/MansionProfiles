@@ -4,12 +4,14 @@ import java.util.Calendar;
 import java.util.GregorianCalendar;
 
 import com.rae.friends.Classes.Person;
+import com.rae.friends.Classes.Role.RoleList;
 import com.rae.friends.Classes.Specie.SpeciesList;
 
 public class Luci extends Person {
     public Luci(){
         super(
             "Luci", 
+            RoleList.Visitor,
             new String[]{
                 
             },
@@ -24,8 +26,7 @@ public class Luci extends Person {
                 "Let me drain you",
                 "Stuff my throat",
                 "I'll crush your balls"
-            },
-            "pet"
+            }
         );
     }
 }
