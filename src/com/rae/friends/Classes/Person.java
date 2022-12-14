@@ -12,7 +12,9 @@ public class Person {
     
     String[] nicknames;
     String[] voicelines;
-    
+
+    boolean doesERP;
+
     public Person(
         String name, 
         Role role,
@@ -31,6 +33,7 @@ public class Person {
         this.voicelines = voicelines;
         this.nicknames = nicknames;
         this.role = role;
+        this.doesERP = ERP;
     }
 
     //Methods
