@@ -5,9 +5,12 @@ import java.util.Random;
 
 public class Person {
     String name;
+    String nickname;
+
+    String[] voicelines;
+
     Date birthday;
     Specie kind;
-    String[] voicelines;
     
     public Person(
         String name, 
