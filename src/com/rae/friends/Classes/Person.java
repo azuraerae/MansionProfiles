@@ -14,6 +14,7 @@ public class Person {
     
     public Person(
         String name, 
+        String[] nicknames,
         Specie kind, 
         String[] voicelines,
         Date birthday
@@ -22,6 +23,7 @@ public class Person {
         this.name = name;
         this.kind = kind;
         this.voicelines = voicelines;
+        this.nicknames = nicknames;
     }
 
     //Methods
