@@ -11,6 +11,7 @@ public class Specie {
         public static Specie Cat = new Specie("Cat");
         public static Specie Kitsune = new Specie("Kitsune");
         public static Specie Human = new Specie("Human");
+        public static Specie Loli = new Specie("Loli");
         public static Specie Dragon = new Specie("Dragon");
     }
 }

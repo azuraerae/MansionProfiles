@@ -6,15 +6,15 @@ import java.util.GregorianCalendar;
 import com.rae.friends.Classes.Person;
 import com.rae.friends.Classes.Specie.SpeciesList;
 
-public class Dizzy extends Person{
-    public Dizzy(){
+public class Princess extends Person{
+    public Princess(){
         super(
-            "dizzy",
+            "Dizzy",
             new String[]{
-                "princess",
-                "princess dizzy"
+                "Princess dizzy",
+                "Zomboli"
             },
-            SpeciesList.Human,
+            SpeciesList.Loli,
             new GregorianCalendar(1904 ,Calendar.NOVEMBER, 28).getTime(),
             new String[]{
                 
