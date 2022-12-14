@@ -13,7 +13,9 @@ public class Luci extends Person {
             "Luci", 
             RoleList.Pet,
             new String[]{
-                
+                "lulu",
+                "lucille",
+                "Mrs. B"
             },
             SpeciesList.Cat, 
             new GregorianCalendar(2005, Calendar.APRIL, 1).getTime(),

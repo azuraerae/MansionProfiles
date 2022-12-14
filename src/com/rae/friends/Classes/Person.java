@@ -4,7 +4,7 @@ import java.util.Date;
 import java.util.Random;
 
 public class Person {
-    String name;
+    protected String name;
     Role role;
 
     Date birthday;
@@ -62,5 +62,11 @@ public class Person {
 
     public void setBirthday(Date birthday){
         this.birthday = birthday;
+    }
+    public String getName() {
+        return name;
+    }
+    public void printen() {
+        System.out.println(getName());
     }
 }

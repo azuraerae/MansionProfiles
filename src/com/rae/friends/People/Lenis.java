@@ -20,7 +20,8 @@ public class Lenis extends Person {
             new String[]{
                 "headless? I get plenty of head",
                 "you better keep your hands off me or you'll catch these hands. MAGIC hands",
-                "you're mother"
+                "you're mother",
+                "you know who else?"
             },
             true
         );
