@@ -13,7 +13,7 @@ public class Death extends Person{
             new String[]{
                 
             },
-            SpeciesList.human, 
+            SpeciesList.Human, 
             new GregorianCalendar(2002, Calendar.DECEMBER, 15).getTime(),
             new String[]{
                 "Swallow my sand"
