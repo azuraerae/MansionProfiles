@@ -10,6 +10,6 @@ public class Specie {
     public static class SpeciesList {
         public static Specie Cat = new Specie("Cat");
         public static Specie Kitsune = new Specie("Kitsune");
-        public static Specie human = new Specie("human");
+        public static Specie Human = new Specie("Human");
     }
 }
