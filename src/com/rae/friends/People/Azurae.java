@@ -18,7 +18,8 @@ public class Azurae extends Person {
             new String[]{
                 "Let it rip your balls",
                 "Real real real real real"
-            }
+            },
+            "pet"
         );
     }
 }

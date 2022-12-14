@@ -17,7 +17,8 @@ public class Misora extends Person{
             new GregorianCalendar(2004, Calendar.MAY, 31).getTime(), 
             new String[]{
                 ""
-            }
+            },
+            "pet"
         );
     }
     
