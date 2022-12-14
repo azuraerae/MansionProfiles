@@ -9,5 +9,6 @@ public class Spicie {
 
     public static class SpiciesList {
         public static Spicie Cat = new Spicie("Cat");
+        public static Spicie Kitsune = new Spicie("Kitsune");
     }
 }
