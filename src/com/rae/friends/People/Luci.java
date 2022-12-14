@@ -1,5 +1,8 @@
 package com.rae.friends.People;
 
+import java.util.Calendar;
+import java.util.GregorianCalendar;
+
 import com.rae.friends.Classes.Person;
 import com.rae.friends.Classes.Spicie.SpiciesList;
 
@@ -17,7 +20,8 @@ public class Luci extends Person {
                 "Let me drain you",
                 "Stuff my throat",
                 "I'll crush your balls"
-            }
+            },
+            new GregorianCalendar(2005, Calendar.APRIL, 1).getTime()
         );
     }
 }
