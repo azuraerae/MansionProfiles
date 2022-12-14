@@ -1,11 +1,10 @@
 package com.rae.friends;
 
-import com.rae.friends.People.Lenis;
+import com.rae.friends.Classes.Frame;
 
 public class Root {
     public static void main(String[] args) {
-        //Test
-        Lenis len = new Lenis();
-        System.out.println(len.getRandomVoiceline());
+        Frame main = new Frame(1280, 720);
+        main.isVisible(true);
     }
 }
