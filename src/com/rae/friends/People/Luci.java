@@ -24,7 +24,8 @@ public class Luci extends Person {
                 "Let me drain you",
                 "Stuff my throat",
                 "I'll crush your balls"
-            }
+            },
+            "pet"
         );
     }
 }

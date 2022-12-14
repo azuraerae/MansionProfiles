@@ -18,7 +18,8 @@ public class Dizzy extends Person{
             new GregorianCalendar(1904 ,Calendar.NOVEMBER, 28).getTime(),
             new String[]{
                 
-            }
+            },
+            "owner"
         );
     }
 }

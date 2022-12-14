@@ -5,6 +5,7 @@ import java.util.Random;
 
 public class Person {
     String name;
+    String role;
 
     Date birthday;
     Specie kind;
@@ -20,13 +21,15 @@ public class Person {
 
         Date birthday,
         
-        String[] voicelines
+        String[] voicelines,
+        String role
         ){
             
         this.name = name;
         this.kind = kind;
         this.voicelines = voicelines;
         this.nicknames = nicknames;
+        this.role = role;
     }
 
     //Methods

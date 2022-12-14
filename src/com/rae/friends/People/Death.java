@@ -17,7 +17,8 @@ public class Death extends Person{
             new GregorianCalendar(2002, Calendar.DECEMBER, 15).getTime(),
             new String[]{
                 "Swallow my sand"
-            }
+            },
+            "bitch"
         );
     }
 }
