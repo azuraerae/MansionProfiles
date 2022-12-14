@@ -21,7 +21,8 @@ public class Lenis extends Person {
                 "headless? I get plenty of head",
                 "you better keep your hands off me or you'll catch these hands. MAGIC hands",
                 "you're mother"
-            }
+            },
+            true
         );
     }
 }
