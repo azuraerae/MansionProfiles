@@ -22,7 +22,8 @@ public class Person {
 
         Date birthday,
         
-        String[] voicelines
+        String[] voicelines,
+        boolean ERP
         ){
             
         this.name = name;
