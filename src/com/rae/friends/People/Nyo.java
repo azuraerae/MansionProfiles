@@ -11,7 +11,8 @@ public class Nyo extends Person {
         super(
             "Nyo", 
             new String[]{
-
+                "the cat 2.0",
+                "slow"
             },
             SpeciesList.Cat,
             new GregorianCalendar(2001, Calendar.SEPTEMBER, 3).getTime(),
