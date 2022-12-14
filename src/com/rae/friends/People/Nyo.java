@@ -13,15 +13,16 @@ public class Nyo extends Person {
             "Nyo", 
             RoleList.Entertainer,
             new String[]{
-                "the cat 2.0",
-                "slow",
-                "akku"
+                "The Cat 2.0",
+                "Slow",
+                "Akku"
             },
             SpeciesList.Cat,
             new GregorianCalendar(2001, Calendar.SEPTEMBER, 3).getTime(),
             new String[]{
                 
-            }
+            },
+            true
         );
     }
 }

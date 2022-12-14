@@ -20,7 +20,8 @@ public class Silver extends Person {
             new String[]{
                 "i'll make you trans",
                 "Are you really fucking me while talking casually?"
-            }
+            },
+            true
         );
     }
 }
