@@ -11,7 +11,7 @@ public class Luci extends Person {
     public Luci(){
         super(
             "Luci", 
-            RoleList.Visitor,
+            RoleList.Pet,
             new String[]{
                 
             },

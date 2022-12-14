@@ -11,7 +11,7 @@ public class Azurae extends Person {
     public Azurae(){
         super(
             "Azurae", 
-            RoleList.Visitor,
+            RoleList.Pet,
             new String[]{
                 "Rae"
             },

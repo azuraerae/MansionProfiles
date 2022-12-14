@@ -4,12 +4,14 @@ import java.util.Calendar;
 import java.util.GregorianCalendar;
 
 import com.rae.friends.Classes.Person;
+import com.rae.friends.Classes.Role.RoleList;
 import com.rae.friends.Classes.Specie.SpeciesList;
 
 public class Princess extends Person{
     public Princess(){
         super(
             "Dizzy",
+            RoleList.Princess,
             new String[]{
                 "Princess dizzy",
                 "Zomboli"
@@ -18,8 +20,7 @@ public class Princess extends Person{
             new GregorianCalendar(1904 ,Calendar.NOVEMBER, 28).getTime(),
             new String[]{
                 
-            },
-            "owner"
+            }
         );
     }
 }

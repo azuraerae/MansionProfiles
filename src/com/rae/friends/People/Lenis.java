@@ -11,7 +11,7 @@ public class Lenis extends Person {
     public Lenis(){
         super(
             "Lenis",
-            RoleList.Visitor,
+            RoleList.Pet,
             new String[]{
                 "Lenny"
             },
