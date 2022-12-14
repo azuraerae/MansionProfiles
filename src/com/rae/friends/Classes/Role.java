@@ -9,7 +9,7 @@ public class Role {
     public static class RoleList{
         public static Role Princess = new Role("Princess");
         public static Role Visitor = new Role("Visitor");
-        public static Role Pet = new Role("pet");
-        public static Role entertainer = new Role("entertainer");
+        public static Role Pet = new Role("Pet");
+        public static Role Entertainer = new Role("Entertainer");
     }
 }
